@@ -36,6 +36,7 @@ function prepareObjects(jsonData) {
     let animalData = jsonObject.fullname.split(" ");
     console.log(animalData);
 
+    //Name
     let animalName = animalData[0];
     console.log(animalName);
     animal.name = animalName;
